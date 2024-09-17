@@ -1,4 +1,10 @@
-word = "great"
+import random
+
+possible_words = ["great", "pants", "shoes","jackets", "shorts", "earthquake"]
+
+#varible to store possible words
+word =  random.choice(possible_words)
+print(word)
 
 #colors for printing
 default = '\033[0m'
